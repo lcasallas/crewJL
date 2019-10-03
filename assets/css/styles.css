@@ -34,6 +34,11 @@ body {
   box-sizing: border-box;
   box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.2);
 }
+.login__container-imagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .login__container--remember-me {
   margin-top: 16px;
   font-size: 12px;
