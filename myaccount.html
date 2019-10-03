@@ -1,97 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="./assets/css/dashboard.css" />
-		<link rel="stylesheet" href="./assets/css/styles.css" />
-		<title>Dashboard - Buberfy</title>
-	</head>
-	<body>
-		<header class="header">
-			<div class="header__img">
-				<img src="./assets/images/logo.png" alt="Buberfy Logo" />
-			</div>
-			<div class="header__menu">
-				<ul class="header__menu-option">
-					<li><a href="/">favoritos</a></li>
-					<li><a href="/">mi cuenta</a></li>
-					<li><a href="/">viajar</a></li>
-				</ul>
-				<div class="header__profile">
-					<img src="./assets/images/userProfile.jpeg" alt="Photo Profile" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Dashboard - Buberfy</title>
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header__img">
+          <img src="./assets/images/logo.png" alt="Buberfy Logo" />
+        </div>
+        <div class="header__menu">
+          <ul class="header__menu-option">
+            <li><a href="/">favoritos</a></li>
+            <li><a href="/">mi cuenta</a></li>
+            <li><a href="/">viajar</a></li>
+          </ul>
+          <div class="header__profile">
+            <img src="./assets/images/userProfile.jpeg" alt="Photo Profile" />
+          </div>
+        </div>
+      </header>
+      <section class="container">
+        <div class="container__menu">
+          <div class="container__menu-account">
+            <div class="container__menu-account-profileImg">
+              <img
+                src="./assets/images/userProfile.jpeg"
+                alt="Photo user profile"
+              />
+            </div>
+            <form>
+              <h2>Mi Cuenta</h2>
+              <input type="text" class="input" placeholder="Nombre *" />
+              <input type="text" class="input" placeholder="Apellido *" />
+              <input type="text" class="input" placeholder="E-mail *" />
+              <input type="text" class="input" placeholder="Telefono *" />
+              <input
+                type="text"
+                class="input"
+                placeholder="Tarjeta de cr&eacute;dito"
+              />
+              <button class="button-verde button">
+                Actualizar Informaci&oacute;n
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="container__info">
+          <div class="container__history">
+            <div class="container__history-trip">
+              <h2>Historial de Viajes</h2>
+              <div class="card-history-trip">
+                <div>
+                  <img src="./assets/images/iconCar.png" alt="Icon Car" />
+                  <span>Platzi, HQ</span>
+                </div>
+                <div><img src="./assets/images/iconBankCard.png" alt="" /></div>
+              </div>
+              <div class="card-history-trip">
+                <div>
+                  <img src="./assets/images/iconCar.png" alt="Icon Car" />
+                  <span>Platzi, HQ</span>
+                </div>
+                <div><img src="./assets/images/iconBankCard.png" alt="" /></div>
+              </div>
+              <div class="card-history-trip">
+                <div>
+                  <img src="./assets/images/iconCar.png" alt="Icon Car" />
+                  <span>Platzi, HQ</span>
+                </div>
+                <div><img src="./assets/images/iconBankCard.png" alt="" /></div>
+              </div>
+              <div class="card-history-trip">
+                <div>
+                  <img src="./assets/images/iconCar.png" alt="Icon Car" />
+                  <span>Platzi, HQ</span>
+                </div>
+                <div><img src="./assets/images/iconBankCard.png" alt="" /></div>
+              </div>
+            </div>
+            <div class="container__history-map">
+			  <div class="container__history-map-image"><img src="./assets/images/map.png" alt="Map History" /></div>
+			<div class="data-trip">
+				<div class="data-trip__item">
+					<img class="data-trip__item-img" src="./assets/images/iconCash.png" alt="Cash" />
+					<div>
+						<span class="data-trip__item-tittle"> $ 0 </span>
+						<span class="data-trip__item-detail">
+							Tarifa estimada del viaje
+						</span>
+					</div>
+				</div>
+				<div class="data-trip__item">
+					<img class="data-trip__item-img" src="./assets/images/iconFlag.png" alt="Flag" />
+					<div>
+						<span class="data-trip__item-tittle"> 37 min. </span>
+						<span class="data-trip__item-detail">
+							Tiempo estimado de llegada
+						</span>
+					</div>
+				</div>
+				<div class="data-trip__item">
+					<img class="data-trip__item-img" src="./assets/images/iconCar.png" alt="Car" />
+					<div>
+						<span class="data-trip__item-tittle"> Chevrolet Spark GT </span>
+						<span class="data-trip__item-subtittle"> ELZ 890 </span>
+						<span class="data-trip__item-detail">
+							Automovil asignado
+						</span>
+					</div>
+				</div>
+				<div class="data-trip__item">
+					<img class="data-trip__item-imgProfile data-trip__item-img" src="./assets/images/iconUser.png" alt="User" />
+					<div>
+						<span class="data-trip__item-tittle"> Uber Contreras </span>
+						<span class="data-trip__item-subtittle">
+							<img src="./assets/images/iconStar.png" width="15px" alt="Star" />
+							4.95
+						</span>
+						<span class="data-trip__item-detail">
+							Conductor Asignado
+						</span>
+					</div>
 				</div>
 			</div>
-		</header>
-		<section class="container">
-			<div class="container__menu">
-				<div class="container__menu-account">
-					<div class="container__menu-account-profileImg">
-						<img
-							src="./assets/images/userProfile.jpeg"
-							alt="Photo user profile"
-						/>
-					</div>
-					<form>
-						<h2>Mi Cuenta</h2>
-						<input type="text" class="input" placeholder="Nombre *" />
-						<input type="text" class="input" placeholder="Apellido *" />
-						<input type="text" class="input" placeholder="E-mail *" />
-						<input type="text" class="input" placeholder="Telefono *" />
-						<input
-							type="text"
-							class="input"
-							placeholder="Tarjeta de cr&eacute;dito"
-						/>
-						<button class="button-verde button">
-							Actualizar Informaci&oacute;n
-						</button>
-					</form>
-				</div>
 			</div>
-			<div class="container__info">
-				<div class="container__history">
-					<div class="container__history-trip">
-						<h2>Historial de Viajes</h2>
-						<div class="card-history-trip">
-							<div>
-								<img src="./assets/images/iconCar.png" alt="Icon Car" />
-								<span>Platzi, HQ</span>
-							</div>
-							<div><img src="./assets/images/iconBankCard.png" alt="" /></div>
-						</div>
-						<div class="card-history-trip">
-							<div>
-								<img src="./assets/images/iconCar.png" alt="Icon Car" />
-								<span>Platzi, HQ</span>
-							</div>
-							<div><img src="./assets/images/iconBankCard.png" alt="" /></div>
-						</div>
-						<div class="card-history-trip">
-							<div>
-								<img src="./assets/images/iconCar.png" alt="Icon Car" />
-								<span>Platzi, HQ</span>
-							</div>
-							<div><img src="./assets/images/iconBankCard.png" alt="" /></div>
-						</div>
-						<div class="card-history-trip">
-							<div>
-								<img src="./assets/images/iconCar.png" alt="Icon Car" />
-								<span>Platzi, HQ</span>
-							</div>
-							<div><img src="./assets/images/iconBankCard.png" alt="" /></div>
-						</div>
-					</div>
-					<div class="container__history-map">
-						<div><img src="./assets/images/map.png" alt="Map History" /></div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</body>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
