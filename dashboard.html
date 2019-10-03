@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Muli:400,700,800,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./assets/css/dashboard.css" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<title>Dashboard - Buberfy</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__img">
+				<img src="./assets/images/logo.png" alt="Buberfy Logo" />
+			</div>
+			<div class="header__menu">
+				<ul class="header__menu-option">
+					<li><a href="/">favoritos</a></li>
+					<li><a href="/">mi cuenta</a></li>
+					<li><a href="/">viajar</a></li>
+				</ul>
+				<div class="header__profile">
+					<img src="./assets/images/userProfile.jpeg" alt="Photo Profile" />
+				</div>
+			</div>
+		</header>
+		<section class="container">
+			<div class="container__menu">
+				<div class="container__menu-trip">
+					<div class="container__menu-trip-options">
+						<h2>Detalle Viaje</h2>
+						<form>
+							<input
+								type="text"
+								class="input"
+								placeholder="Direcci&oacute;n Origen"
+							/>
+							<input
+								type="text"
+								class="input"
+								placeholder="Direcci&oacute;n Destino"
+							/>
+							<h2>Tipo de Viaje</h2>
+							<div class="cardTypeTrip">
+								<div><img src="./assets/images/iconCar.png" alt="" /></div>
+								<div class="cardTypeTrip__text">
+									<span class="cardTypeTrip__text-title">Comparte</span>
+									<span class="cardTypeTrip__text-detail"
+										>Tarifa dividida m&aacute;s econ&oacute;mica.</span
+									>
+								</div>
+							</div>
+							<div class="cardTypeTrip">
+								<div><img src="./assets/images/iconCar.png" alt="" /></div>
+								<div class="cardTypeTrip__text">
+									<span class="cardTypeTrip__text-title">Personal</span>
+									<span class="cardTypeTrip__text-detail"
+										>Tarifa econ&oacute;mica.</span
+									>
+								</div>
+							</div>
+							<div class="cardTypeTrip">
+								<div><img src="./assets/images/iconCar.png" alt="" /></div>
+								<div class="cardTypeTrip__text">
+									<span class="cardTypeTrip__text-title">Confort</span>
+									<span class="cardTypeTrip__text-detail">Tarifa plus.</span>
+								</div>
+							</div>
+							<button class="button-morado button">Consultar Viaje</button>
+						</form>
+						<button class="button-verde button">Confirmar Viaje</button>
+					</div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<div class="container__info">
+				<div class="map"></div>
+				<div class="data-trip"></div>
+			</div>
+		</section>
+	</body>
+</html>

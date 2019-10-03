@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	color: #64626f;
+}
+.login {
+	background-color: #f8f8f8;
+	min-height: 100vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 80px;
+}
+.login__image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login__image img {
+	width: 70%;
+}
+.login__container {
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 600px;
+	width: 350px;
+	padding: 32px;
+	box-sizing: border-box;
+	box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.login__container--remember-me {
+	margin-top: 16px;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: #64626f;
+}
+.login__container--remember-me a {
+	color: #64626f;
+	text-decoration: none;
+}
+.login__container--remember-me a:hover {
+	text-decoration: underline;
+}
+.login__container--social-media {
+	font-size: 12px;
+}
+.login__container--social-media div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.login__container--social-media img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.login__container--register {
+	font-size: 12px;
+}
+
+.login__container--register a {
+	text-decoration: none;
+	color: #64626f;
+	font-weight: bold;
+}
+.login__container--register a:hover {
+	text-decoration: underline;
+}
+
+.input {
+	background-color: transparent;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #6c56cc;
+	margin-bottom: 20px;
+	outline: none;
+	height: 40px;
+	font-family: 'Muli', sans-serif;
+	width: 100%;
+}
+.button {
+	width: 100%;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	cursor: pointer;
+}
+.button-rojo {
+	background-color: #ff4969;
+	color: white;
+}
+.button-morado {
+	background-color: #6c56cc;
+	color: white;
+}
+.button-verde {
+	background-color: #82f68a;
+	color: #322f40;
+}
