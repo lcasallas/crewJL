@@ -13,147 +13,149 @@
     <title>Dashboard - Buberfy</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__img">
-        <img src="./assets/images/logo.png" alt="Buberfy Logo" />
-      </div>
-      <div class="header__menu">
-        <ul class="header__menu-option">
-          <li><a href="/">favoritos</a></li>
-          <li><a href="/">mi cuenta</a></li>
-          <li><a href="/">viajar</a></li>
-        </ul>
-        <div class="header__profile">
-          <img src="./assets/images/userProfile.jpeg" alt="Photo Profile" />
+    <div class="main">
+      <header class="header">
+        <div class="header__img">
+          <img src="./assets/images/logo.png" alt="Buberfy Logo" />
         </div>
-      </div>
-    </header>
-    <section class="container">
-      <div class="container__menu">
-        <div class="container__menu-trip">
-          <div class="container__menu-trip-options">
-            <h2>Detalle Viaje</h2>
-            <form>
-              <input
-                type="text"
-                class="input"
-                placeholder="Direcci&oacute;n Origen"
-              />
-              <input
-                type="text"
-                class="input"
-                placeholder="Direcci&oacute;n Destino"
-              />
-              <h2>Tipo de Viaje</h2>
-              <div class="cardTypeTrip">
-                <div><img src="./assets/images/iconCar.png" alt="" /></div>
-                <div class="cardTypeTrip__text">
-                  <span class="cardTypeTrip__text-title">Comparte</span>
-                  <span class="cardTypeTrip__text-detail"
-                    >Tarifa dividida m&aacute;s econ&oacute;mica.</span
-                  >
-                </div>
-              </div>
-              <div class="cardTypeTrip">
-                <div><img src="./assets/images/iconCar.png" alt="" /></div>
-                <div class="cardTypeTrip__text">
-                  <span class="cardTypeTrip__text-title">Personal</span>
-                  <span class="cardTypeTrip__text-detail"
-                    >Tarifa econ&oacute;mica.</span
-                  >
-                </div>
-              </div>
-              <div class="cardTypeTrip">
-                <div><img src="./assets/images/iconCar.png" alt="" /></div>
-                <div class="cardTypeTrip__text">
-                  <span class="cardTypeTrip__text-title">Confort</span>
-                  <span class="cardTypeTrip__text-detail">Tarifa plus.</span>
-                </div>
-              </div>
-              <button class="button-morado button">Consultar Viaje</button>
-            </form>
-            <button class="button-verde button">Confirmar Viaje</button>
+        <div class="header__menu">
+          <ul class="header__menu-option">
+            <li><a href="/">favoritos</a></li>
+            <li><a href="/">mi cuenta</a></li>
+            <li><a href="/">viajar</a></li>
+          </ul>
+          <div class="header__profile">
+            <img src="./assets/images/userProfile.jpeg" alt="Photo Profile" />
           </div>
-          <div></div>
-          <div></div>
         </div>
-      </div>
-      <div class="container__info">
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d15906.53458288841!2d-74.06995229837813!3d4.65924392543153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d4.6703018!2d-74.0685008!4m5!1s0x8e3f9a4333a1a275%3A0x91a59c01b85e3f59!2sPlatzi%2C%20Cl.%2072%20%239%20-%2055%2C%20Bogot%C3%A1!3m2!1d4.6560663!2d-74.0574031!5e0!3m2!1ses-419!2sco!4v1570113807228!5m2!1ses-419!2sco"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            style="border:0;"
-            allowfullscreen=""
-          >
-          </iframe>
-        </div>
-        <div class="data-trip">
-          <div class="data-trip__item">
-            <img
-              class="data-trip__item-img"
-              src="./assets/images/iconCash.png"
-              alt="Cash"
-            />
-            <div>
-              <span class="data-trip__item-tittle"> $ 0 </span>
-              <span class="data-trip__item-detail">
-                Tarifa estimada del viaje
-              </span>
-            </div>
-          </div>
-          <div class="data-trip__item">
-            <img
-              class="data-trip__item-img"
-              src="./assets/images/iconFlag.png"
-              alt="Flag"
-            />
-            <div>
-              <span class="data-trip__item-tittle"> 37 min. </span>
-              <span class="data-trip__item-detail">
-                Tiempo estimado de llegada
-              </span>
-            </div>
-          </div>
-          <div class="data-trip__item">
-            <img
-              class="data-trip__item-img"
-              src="./assets/images/iconCar.png"
-              alt="Car"
-            />
-            <div>
-              <span class="data-trip__item-tittle"> Chevrolet Spark GT </span>
-              <span class="data-trip__item-subtittle"> ELZ 890 </span>
-              <span class="data-trip__item-detail">
-                Automovil asignado
-              </span>
-            </div>
-          </div>
-          <div class="data-trip__item">
-            <img
-              class="data-trip__item-imgProfile data-trip__item-img"
-              src="./assets/images/iconUser.png"
-              alt="User"
-            />
-            <div>
-              <span class="data-trip__item-tittle"> Uber Contreras </span>
-              <span class="data-trip__item-subtittle">
-                <img
-                  src="./assets/images/iconStar.png"
-                  width="15px"
-                  alt="Star"
+      </header>
+      <section class="container">
+        <div class="container__menu">
+          <div class="container__menu-trip">
+            <div class="container__menu-trip-options">
+              <h2>Detalle Viaje</h2>
+              <form>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Direcci&oacute;n Origen"
                 />
-                4.95
-              </span>
-              <span class="data-trip__item-detail">
-                Conductor Asignado
-              </span>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Direcci&oacute;n Destino"
+                />
+                <h2>Tipo de Viaje</h2>
+                <div class="cardTypeTrip">
+                  <div><img src="./assets/images/iconCar.png" alt="" /></div>
+                  <div class="cardTypeTrip__text">
+                    <span class="cardTypeTrip__text-title">Comparte</span>
+                    <span class="cardTypeTrip__text-detail"
+                      >Tarifa dividida m&aacute;s econ&oacute;mica.</span
+                    >
+                  </div>
+                </div>
+                <div class="cardTypeTrip">
+                  <div><img src="./assets/images/iconCar.png" alt="" /></div>
+                  <div class="cardTypeTrip__text">
+                    <span class="cardTypeTrip__text-title">Personal</span>
+                    <span class="cardTypeTrip__text-detail"
+                      >Tarifa econ&oacute;mica.</span
+                    >
+                  </div>
+                </div>
+                <div class="cardTypeTrip">
+                  <div><img src="./assets/images/iconCar.png" alt="" /></div>
+                  <div class="cardTypeTrip__text">
+                    <span class="cardTypeTrip__text-title">Confort</span>
+                    <span class="cardTypeTrip__text-detail">Tarifa plus.</span>
+                  </div>
+                </div>
+                <button class="button-morado button">Consultar Viaje</button>
+              </form>
+              <button class="button-verde button">Confirmar Viaje</button>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="container__info">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d15906.53458288841!2d-74.06995229837813!3d4.65924392543153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d4.6703018!2d-74.0685008!4m5!1s0x8e3f9a4333a1a275%3A0x91a59c01b85e3f59!2sPlatzi%2C%20Cl.%2072%20%239%20-%2055%2C%20Bogot%C3%A1!3m2!1d4.6560663!2d-74.0574031!5e0!3m2!1ses-419!2sco!4v1570113807228!5m2!1ses-419!2sco"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border:0;"
+              allowfullscreen=""
+            >
+            </iframe>
+          </div>
+          <div class="data-trip">
+            <div class="data-trip__item">
+              <img
+                class="data-trip__item-img"
+                src="./assets/images/iconCash.png"
+                alt="Cash"
+              />
+              <div>
+                <span class="data-trip__item-tittle"> $ 0 </span>
+                <span class="data-trip__item-detail">
+                  Tarifa estimada del viaje
+                </span>
+              </div>
+            </div>
+            <div class="data-trip__item">
+              <img
+                class="data-trip__item-img"
+                src="./assets/images/iconFlag.png"
+                alt="Flag"
+              />
+              <div>
+                <span class="data-trip__item-tittle"> 37 min. </span>
+                <span class="data-trip__item-detail">
+                  Tiempo estimado de llegada
+                </span>
+              </div>
+            </div>
+            <div class="data-trip__item">
+              <img
+                class="data-trip__item-img"
+                src="./assets/images/iconCar.png"
+                alt="Car"
+              />
+              <div>
+                <span class="data-trip__item-tittle"> Chevrolet Spark GT </span>
+                <span class="data-trip__item-subtittle"> ELZ 890 </span>
+                <span class="data-trip__item-detail">
+                  Automovil asignado
+                </span>
+              </div>
+            </div>
+            <div class="data-trip__item">
+              <img
+                class="data-trip__item-imgProfile data-trip__item-img"
+                src="./assets/images/iconUser.png"
+                alt="User"
+              />
+              <div>
+                <span class="data-trip__item-tittle"> Uber Contreras </span>
+                <span class="data-trip__item-subtittle">
+                  <img
+                    src="./assets/images/iconStar.png"
+                    width="15px"
+                    alt="Star"
+                  />
+                  4.95
+                </span>
+                <span class="data-trip__item-detail">
+                  Conductor Asignado
+                </span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
